@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
+    <style>
+        fieldset{
+            width: max-content;
+            margin-inline: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <table>
+            <form action="#" class="form">
+                <tr>
+                    <td><label for="uname">Name</label></td>
+                    <td><input class="form-control" type="text" name="uname" id="uname" length="20" required></td>
+                </tr>
+                <tr>
+                    <td><label for="uage">Age</label></td>
+                    <td><input class="form-control" type="number" name="uage" id="uage" min="1" max="110" required></td>
+                </tr>
+                <tr>
+                    <td><label for="ucity">City</label></td>
+                    <td><select class="form-control" name="ucity" id="ucity" required>
+                            <option value="Amritsar">Amritsar</option>
+                            <option value="Jalandhar">Jalandhar</option>
+                            <option value="Kapurthala">Kapurthala</option>
+                            <option value="Sangrur">Sangrur</option>
+                            <option value="Others">Others</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" value="Submit">&nbsp;&nbsp;<input type="reset" value="Reset"></td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+</body>
+
+</html>
