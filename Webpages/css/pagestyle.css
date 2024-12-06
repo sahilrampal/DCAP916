@@ -1,0 +1,30 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    border: .5rem double blue;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 80%;
+    margin-inline: auto;
+}
+button{
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-inline: auto;
+}
+.buttoncontainer{
+    width: 80%;
+    margin-inline: auto;
+    border: .5rem double blue;
+}
