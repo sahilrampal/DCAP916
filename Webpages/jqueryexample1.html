@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../assets/jquery/jquery-3.7.1.min.js"></script>
+    <style>
+        p{
+            background-color: lightblue;
+            border: .5em double black;
+            padding: 10px;
+            border-radius: .5em;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#p1").hide();
+                $("#p3").hide();
+            });
+            $("#button2").click(function(){
+                $("#p1").show();
+                $("#p3").show();
+            });
+        });
+    </script>
+    <p id="p1">This is First Paragraph! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, a facilis illum mollitia obcaecati assumenda excepturi odit id nisi voluptate, quibusdam cupiditate nesciunt animi, temporibus voluptatibus. Libero error odit voluptate exercitationem molestiae, repellendus, dolorem explicabo optio nam architecto non expedita dolores labore sapiente. Quaerat, enim repellendus. Labore esse exercitationem est ipsa possimus error unde suscipit qui ad aliquid rem beatae quas nam quidem nisi architecto id iusto, facilis harum amet voluptatem, a aperiam sint. Iusto, dolore consequatur dolores aliquam unde ullam quod modi! Fugiat porro nulla quibusdam suscipit voluptate, beatae nam optio ipsum itaque dolor hic ullam cum voluptatem illum.</p>
+    <p id="p2">This is Second Paragraph! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, autem eum! Sit ex impedit reiciendis veritatis dignissimos quod officiis sint doloribus dolores ipsa beatae, odit labore nostrum esse recusandae nesciunt repellat quo quas aliquid fugiat accusantium, perspiciatis alias? Alias, ea molestiae qui ipsum sed adipisci error nam soluta! Beatae placeat sint error tempora alias quaerat eligendi suscipit aspernatur nulla quos incidunt reiciendis consequuntur porro adipisci molestias ea blanditiis quibusdam, dolore earum animi molestiae voluptatem eaque quod et. Inventore ad id asperiores rem velit alias obcaecati. Eveniet dolorem, eaque unde porro neque repudiandae consectetur eos facere adipisci sed provident saepe quis!</p>
+    <p id="p3">This is Third Paragraph! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis modi beatae nobis consequuntur architecto, tempore suscipit explicabo, autem, quas vero doloribus illum commodi fugiat! Dicta vel id beatae, iusto porro consectetur, quis placeat, consequatur at soluta recusandae modi debitis. Consequuntur quae sunt inventore quis reprehenderit quia mollitia vitae! Ullam ad fuga officiis pariatur reiciendis quasi minus maiores, quibusdam porro quo quidem unde quod, at suscipit. Beatae quod consectetur quisquam expedita ipsa earum odit suscipit aspernatur, obcaecati quidem modi doloribus cumque quis qui reprehenderit veritatis neque adipisci esse aut soluta amet pariatur ad. Voluptates autem architecto obcaecati dicta? Soluta, laboriosam mollitia?</p>
+    <button id="button1">Hide</button>
+    <button id="button2">Show</button>
+</body>
+</html>
