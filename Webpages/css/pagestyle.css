@@ -17,7 +17,6 @@ p{
     margin-inline: auto;
 }
 button{
-    width: 100%;
     padding: .5rem 1rem;
     font-size: 1rem;
     font-weight: 600;
@@ -27,4 +26,9 @@ button{
     width: 80%;
     margin-inline: auto;
     border: .5rem double blue;
+}
+div{
+    padding: 1rem;
+    border: .5rem double blue;
+    border-radius: .5rem;
 }

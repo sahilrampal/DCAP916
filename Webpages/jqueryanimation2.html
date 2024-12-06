@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../assets/jquery/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="../Webpages/css/pagestyle.css">
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam aliquam tempore maiores eos et ad ab voluptatem, totam minus atque ipsam beatae aperiam illum eius id deserunt itaque error asperiores qui esse. Nihil nam sit doloribus magnam eius voluptate nesciunt quasi? Fuga corrupti maxime, nobis, velit fugit, numquam at aperiam ducimus vero eligendi sed atque quisquam quas? Omnis odio harum excepturi esse dolores totam nihil illum pariatur minima commodi quae eveniet error quisquam, fugiat alias similique mollitia blanditiis, deleniti quasi est quam sit ut dolore. Vel cum voluptatibus quidem a sed excepturi molestias, odio in laborum! Nisi, laboriosam suscipit.</div>
+    <button id="animate-in">Animate-In</button>
+    <button id="animate-out">Animate-Out</button>
+    <script>
+        $(document).ready(function(){
+            $("#animate-in").click(function(){
+                $("div").animate({
+                    width:"50%"
+                }, 2000);
+            });
+            $("#animate-out").click(function(){
+                $("div").animate({
+                    width: "100%"
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
